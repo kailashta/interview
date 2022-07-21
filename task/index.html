@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BusDetails</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,300;1,200&family=Rampart+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@0,300;1,200&family=Rampart+One&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+
+<body>
+
+
+    <div class="user">
+        <div class="logo-container">
+            <h1 id="logo">redBus</h1>
+        </div>
+        <div class="menus">
+            <div class="hamber-icon">
+                <i class="fa-solid fa-bars " id="hamber"></i>
+                <i class="fa-solid fa-xmark" id="close"></i>
+            </div>
+
+            <div class="navbar" id="options">
+
+                <button class="nav"><h4><i class="fa-solid fa-bus-simple"></i>  Search Bus</h4></button>
+                <hr>
+                <button class="nav"><h4><i><img src="images\car-seat (2).png" alt=""></i>Availability</h4></button>
+                <hr>
+                <button class="nav"><h4><i class="fa-solid fa-ticket"></i>Show Tickets</h4></button>
+                <hr>
+                <button class="nav"><h4><i class="fa-solid fa-phone"></i>Contact Us</h4></button>
+                <hr>
+                <div class="social-media">
+                    <h6 class="greeting">Follows us on </h6>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                    <i class="fa-brands fa-facebook-square"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="login-options">
+            <div class="account">
+                <i class="fa-solid fa-circle-user" id="profile"></i>
+                <i class="fa-solid fa-circle-xmark" id="profile-close"></i>
+            </div>
+            <div class="sign-up" id="sing-up">
+                <button class="register">Register</button>
+                <hr>
+                <button class="log-in">Sign In</button>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="body-container">
+        <div class="message">
+            <h2 class="greeting">Hey Buddy! where are you <br> <b>traveling</b> to?</h2>
+            <h5 class="explore">Explore Now -----></h5>
+        </div>
+        <div class="bus-search ">
+            <div class="search-field">
+                <div class="input-fields">
+                    <form action="">
+                        <label for="from">
+                        <i class="fa-solid fa-bus"></i>
+                    </label>
+                        <input type="text" name="from" placeholder="From">
+
+                </div>
+                <div class="input-fields direction">
+                    <i class="fa-solid fa-arrow-right-arrow-left" id="arrow"></i>
+                </div>
+
+                <div class="input-fields">
+                    <label for="destination">
+                        <i class="fa-solid fa-bus"></i>
+                    </label>
+                    <input type="text" name="destination" placeholder="Destination">
+                </div>
+
+                <div class="input-fields">
+
+                    <label for="date">
+                    <i class="fa-solid fa-calendar"></i>
+                </label>
+                    <input type="date" name="date" id="">
+                </div>
+                <div class="input-fields">
+                    <input type="submit" class="submit-btn" value="Search">
+                </div>
+            </div>
+            </form>
+            <div class="available-buses">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="javaScript\index.js"></script>
+</body>
+
+</html>

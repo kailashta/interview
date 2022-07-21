@@ -1,0 +1,261 @@
+.user {
+    display: flex;
+    justify-content: space-around;
+    margin: auto 9%;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+#logo {
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rampart One', cursive;
+    color: brown;
+}
+
+.menus {
+    display: flex;
+    align-items: center;
+}
+
+#hamber,
+hr,
+.account,
+#close {
+    display: none;
+}
+
+i img {
+    width: 25px;
+    height: 15px;
+}
+
+.social-media {
+    display: none;
+}
+
+.login-options {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.navigations {
+    display: inline-block;
+}
+
+.register {
+    margin-right: 20px;
+}
+
+.log-in:hover,
+.register:hover {
+    width: 80px;
+    border: 0;
+    color: white;
+    background-color: black;
+}
+
+.log-in,
+.register,
+.submit-btn {
+    width: 80px;
+    height: 40px;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0e1b49;
+}
+
+.nav {
+    width: 130px;
+    border: none;
+    background-color: white;
+}
+
+.nav i {
+    margin-right: 10px;
+}
+
+.nav:hover {
+    width: 130px;
+    border-bottom: solid 2px black;
+}
+
+.body-container {
+    margin: auto 9%;
+}
+
+.greeting {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.2cm;
+    word-spacing: 0.3cm;
+    letter-spacing: 0.1cm;
+    margin-top: 50px;
+}
+
+.explore,
+.nav {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bus-search {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    border: 0 solid;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bus-img {
+    width: 50%;
+    height: 30px;
+    margin-top: 15px;
+}
+
+.bus-icon {
+    text-align: center;
+}
+
+.bus-icon h4 {
+    display: inline-block;
+    margin-top: -10px;
+}
+
+input {
+    width: 200px;
+    height: 30px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.search-field {
+    display: flex;
+}
+
+.input-fields {
+    margin: auto 15px;
+}
+
+#arrow {
+    font-size: 20px;
+}
+
+label i {
+    font-size: 25px;
+}
+
+@media (max-width:640px) {
+    .user {
+        justify-content: space-between;
+    }
+    .logo-container {
+        order: 2;
+    }
+    #logo {}
+    .menus {
+        flex-direction: column;
+        order: 1;
+        margin-top: 35px;
+    }
+    .login-options {
+        order: 3;
+    }
+    .navbar {
+        margin-left: 0;
+        display: none;
+    }
+    .hamber-icon {
+        margin-left: 0;
+        display: contents;
+    }
+    .open {
+        padding-top: 50px;
+        padding-left: 50px;
+        justify-items: flex-start;
+        width: 100vw;
+        text-align: left;
+        height: 120vh;
+        position: absolute;
+        background-color: blue;
+        color: white;
+    }
+    .nav,
+    .log-in {
+        display: block;
+    }
+    .nav {
+        text-align: left;
+    }
+    .nav:hover {
+        color: #0e1b49;
+        border: none;
+    }
+    #hamber {
+        display: contents;
+    }
+    .hamber-icon {
+        font-size: 25px;
+    }
+    hr {
+        display: flex;
+        width: 240%;
+        justify-content: left;
+    }
+    .social-media {
+        display: contents;
+    }
+    .social-media {
+        display: inline;
+        margin-right: 20px;
+        font-size: 30px;
+        color: #0e1b49;
+    }
+    .social-media i {
+        margin-right: 20px;
+    }
+    .account {
+        display: contents;
+    }
+    .account i {
+        margin-top: 5px;
+        font-size: 25px;
+    }
+    #profile-close {
+        display: none;
+    }
+    .sign-up,
+    .sign-up hr {
+        display: none;
+    }
+    .log-in {
+        margin-right: -100px;
+    }
+    .register {
+        margin-bottom: 25px;
+    }
+    .greeting {
+        letter-spacing: 0.1px;
+    }
+    .bus-search {
+        height: 300px;
+    }
+    .search-field {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 50px;
+    }
+    .direction {
+        margin: -18px auto;
+    }
+    #arrow {
+        margin-left: 50%;
+        transform: rotate(90deg);
+    }
+    #up-arrow {
+        display: flex;
+    }
+}
